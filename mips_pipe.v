@@ -4,7 +4,7 @@ module pipe_MIPS32 (clk1,clk2);
 reg [31:0] PC,IF_ID_IR,IF_ID_NPC;
 reg [31:0] ID_EX_IR,ID_EX_NPC,ID_EX_A,ID_EX_B,ID_EX_Imm;
 reg [2:0] ID_EX_type,EX_MEM_type,MEM_WB_type;
-reg [31:0] EX_MEM_IR,EX_MEM_ALUout,EX_MEM_B
+reg [31:0] EX_MEM_IR,EX_MEM_ALUout,EX_MEM_B;
 reg        EX_MEM_cond;
 reg [31:0] MEM_WB_IR,MEM_WB_ALUout,MEM_WB_LMD;
 
